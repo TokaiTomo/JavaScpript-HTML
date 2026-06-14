@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color:aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h2>Fruit list using <marquee behavior="" direction="">Loop</marquee></h2>
+    <p id="demo"></p>
+    <script>
+        var fruits=["Apple","Orange", "Banana", "Watermelon"];
+        var text="";
+        var i;
+        for(i=0; i<fruits.length;i++) {
+            text+=fruits[i]+"<br>"
+        }
+        document.getElementById("demo").innerHTML=text;
+    </script>
+</body>
+</html>
