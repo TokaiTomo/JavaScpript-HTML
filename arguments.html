@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="a"></p>
+    <script>
+        
+        function findMax(){
+            var i;
+            var max=0;
+            for(i=0;i<arguments.length;i++) {
+                if (arguments[i]>max){
+                    max=arguments[i];
+                }
+            }
+            return max
+        }
+        document.getElementById("a").innerHTML=findMax(1235435,342189479,9287149,2345,8347258,329587)
+    </script>
+</body>
+</html>
