@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>trigonometric things and sum</h1>
+    <button onclick="MYfunction(1,2,3)">Sum</button>
+    <button onclick="trivalue(1,2,3)">Trigonometric values</button>
+    <script>
+        function MYfunction(a,b,c){
+            var sum=a+b+c;
+            document.write("<br>"+sum);
+        }
+        
+        function trivalue(a,b,c){
+            var x,y,z;
+            x=Math.asin(a);
+            y=Math.acos(b);
+            z=Math.tan(c);
+            document.write("<br>"+"Asin of argument a: "+x);
+            document.write("<br>"+"Acos of argument b: "+y);
+            document.write("<br>"+"Tan of argument c: "+z);
+        }
+        
+    </script>
+</body>
+</html>
